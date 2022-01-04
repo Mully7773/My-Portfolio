@@ -17,6 +17,7 @@
 </head>
 
 <body>
+  <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,21 +25,22 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about-me">About Me<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="#work-section">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
+              <a class="nav-link" href="#contact-me">Contact Me</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="#contact-me">Resume</a>
               </li>
           </ul>
         </div>
       </nav>
 
+      <!-- Sky -->
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4"></h1>
@@ -47,18 +49,9 @@
       </div>
 
 
-      <!-- <section id="about" class="container">
-        <div class="container">
-            <h1>Nice to meet you.</h1>
-            <h4 class="subtitle">
-                I am an enthusiastic fullstack web developer with a passion for creating web
-                applications and
-                maintaining enhanced user experiences built on JavaScript technologies.
-            </h4>
-        </div>
-    </section> -->
 
-    <div class="container col-xxl-8 px-4 py-5">
+<!-- About Me Section -->
+    <div class="container col-xxl-8 px-4 py-5" id="about-me">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
           <img src="assets/92751470.jpeg" class="d-block mx-lg-auto img-fluid img-thumbnail rounded" alt="Picture of Nick" width="300" height="200" loading="lazy">
@@ -73,36 +66,38 @@
     </div>
 
 
+<!-- Work Section -->
+      <div class="card-deck" id="work-section">
+        <div class="card">
+          <img class="card-img-top" src="assets/card-images/S1.png" alt="Image of Weather-Dashboard application">
+          <div class="card-body">
+            <h3 class="card-title">Weather Dashboard</h3>
+            <p class="card-text">An application for travelers to view the weather conditions in cities they might travel to.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/Mully7773/Weather-Dashboard"target="_blank">Github Link</a>
+          </div>
+        </div>
 
-      <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="assets/card-images/S0.png" alt="Image of password generator application">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h3 class="card-title">Password Generator</h3>
+            <p class="card-text">A random password generator that includes numbers, uppercase and lowercase characters, and symbols.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <a href="https://github.com/Mully7773/Password-Generator"target="_blank">Github Link</a>
           </div>
         </div>
+
         <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="assets/card-images/S2.png" alt="Image of code quiz application">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <h3 class="card-title">Coding Quiz</h3>
+            <p class="card-text">An interactive coding quiz application</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <a href="https://github.com/Mully7773/Coding-Quiz"target="_blank">Github Link</a>
           </div>
         </div>
       </div>
@@ -110,10 +105,21 @@
 <br>
       <div class="card-deck">
         <div class="card">
+          <img class="card-img-top" src="assets/card-images/S1 (2).png" alt="Image of calendar application">
+          <div class="card-body">
+            <h3 class="card-title">Work Day Scheduler</h3>
+            <p class="card-text">A calendar application you can use to schedule your work day events.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/Mully7773/Calendar-Application"target="_blank">Github Link</a>
+          </div>
+        </div>
+
+        <div class="card">
           <img class="card-img-top" src="..." alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h3 class="card-title">Coming soon!</h3>
+            <p class="card-text">Coming soon!.</p>
           </div>
           <div class="card-footer">
             <small class="text-muted">Last updated 3 mins ago</small>
@@ -122,18 +128,8 @@
         <div class="card">
           <img class="card-img-top" src="..." alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <h3 class="card-title">Coming soon!</h3>
+            <p class="card-text">Coming soon!</p>
           </div>
           <div class="card-footer">
             <small class="text-muted">Last updated 3 mins ago</small>
@@ -141,6 +137,30 @@
         </div>
         
       </div>
+
+<!-- Contact Me Section -->
+      <div class="container col-xxl-8 px-4 py-5" id="contact-me">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Connect With Me</h1>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="https://github.com/Mully7773">Github</a></li>
+              <li class="list-group-item"><a href="https://www.linkedin.com/in/nick-mullenmeister-b7a62078">LinkedIn</a></li>
+              <li class="list-group-item">Email: mully7773@gmail.com</li>
+              <li class="list-group-item">Phone:</li>
+              <li class="list-group-item">Resume:</li>
+            </ul>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            </div>
+          </div>
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="assets/pexels-photo-4381454.jpeg" class="d-block mx-lg-auto img-fluid rounded" alt="Picture of Nick" width="300" height="200" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+
+
 
 
 
