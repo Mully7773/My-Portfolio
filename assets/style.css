@@ -2,3 +2,20 @@
     background-image: url("./cloud--1024x667.jpg");
     background-size: cover;
 }
+
+#about-me {
+    background-color: #3c6e71;
+}
+
+#contact-me {
+    background-color: #284b63
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.list-group-item {
+    color: white;
+    background-color: #284b63
+}
