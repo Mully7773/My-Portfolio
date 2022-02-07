@@ -2,176 +2,185 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
 
-    <!-- Links for Bootstrap, Google fonts, and personal CSS stylesheet -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css">
+  <!-- Links for Bootstrap, Google fonts, and personal CSS stylesheet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
   <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#about-me">About Me<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#work-section">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact-me">Contact Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact-me">Resume</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about-me">About Me<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work-section">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-me">Contact Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-me">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-      <!-- Sky -->
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4"></h1>
-          <p class="lead"></p>
-        </div>
+  <!-- Sky -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4"></h1>
+      <p class="lead"></p>
+    </div>
+  </div>
+
+
+
+  <!-- About Me Section -->
+  <div class="container col-xxl-8 px-4 py-5" id="about-me">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="assets/92751470.jpeg" class="d-block mx-lg-auto img-fluid img-thumbnail rounded" alt="Picture of Nick"
+          width="300" height="200" loading="lazy">
       </div>
-
-
-
-<!-- About Me Section -->
-    <div class="container col-xxl-8 px-4 py-5" id="about-me">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="assets/92751470.jpeg" class="d-block mx-lg-auto img-fluid img-thumbnail rounded" alt="Picture of Nick" width="300" height="200" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">About Me</h1>
-          <p class="lead">Hello, I'm Nick Mullenmeister. I am training to become a full-stack web developer. I am enthusiastic about coding and I constantly strive to learn new technologies and implement them in my work.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">About Me</h1>
+        <p class="lead">Hello, I'm Nick Mullenmeister. I am training to become a full-stack web developer. I am
+          enthusiastic about coding and I constantly strive to learn new technologies and implement them in my work.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         </div>
       </div>
     </div>
+  </div>
+  <hr>
+
+
+  <!-- Work Section -->
+  <div class="card-deck" id="work-section">
+    <div class="card">
+      <img class="card-img-top" src="assets/card-images/S1.png" alt="Image of Weather-Dashboard application">
+      <div class="card-body">
+        <h3 class="card-title">Weather Dashboard</h3>
+        <p class="card-text">An application for travelers to view the weather conditions in cities they might travel to.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/Mully7773/Weather-Dashboard" target="_blank">Github</a>
+        <br>
+        <a href="https://mully7773.github.io/Weather-Dashboard/" target="_blank">Deployed Application</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="assets/card-images/S0.png" alt="Image of password generator application">
+      <div class="card-body">
+        <h3 class="card-title">Password Generator</h3>
+        <p class="card-text">A random password generator that includes numbers, uppercase and lowercase characters, and
+          symbols.</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/Mully7773/Password-Generator" target="_blank">Github</a>
+        <br>
+        <a href="https://mully7773.github.io/Password-Generator/" target="_blank">Deployed Application</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="assets/card-images/S5.png" alt="Image of journal application">
+      <div class="card-body">
+        <h3 class="card-title">Resternal</h3>
+        <p class="card-text">An interactive restaurant review journal application</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/Mully7773/Restaurant-Journal-Project-II" target="_blank">Github</a>
+        <br>
+        <a href="https://morning-island-13574.herokuapp.com/" target="_blank">Deployed Application</a>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="assets/card-images/S1 (2).png" alt="Image of calendar application">
+      <div class="card-body">
+        <h3 class="card-title">Work Day Scheduler</h3>
+        <p class="card-text">A calendar application you can use to schedule your work day events.</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/Mully7773/Calendar-Application"target="_blank">Github</a>
+        <br>
+        <a href="https://mully7773.github.io/Calendar-Application/"target="_blank">Deployed Application</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="assets/card-images/S3.png" alt="Image of team generator application">
+      <div class="card-body">
+        <h3 class="card-title">Team Profile Generator</h3>
+        <p class="card-text">A team profile generator that allows you to manage your employees.</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/Mully7773/Team-Profile-Generator"target="_blank">Github</a>
+        <br>
+        <p>Please watch the demo video or clone the application from Github to see the deployed version.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="assets/card-images/S4.png" alt="An image of a note taker application">
+      <div class="card-body">
+        <h3 class="card-title">Note Taker</h3>
+        <p class="card-text">A note taker application you can use to take, delete, and store notes for future reference.</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/Mully7773/Team-Profile-Generator"target="_blank">Github</a>
+        <br>
+        <a href="https://mighty-anchorage-28221.herokuapp.com/"target="_blank">Deployed Application</a>
+      </div>
+    </div>
+    
+  </div>
     <hr>
 
-
-<!-- Work Section -->
-      <div class="card-deck" id="work-section">
-        <div class="card">
-          <img class="card-img-top" src="assets/card-images/S1.png" alt="Image of Weather-Dashboard application">
-          <div class="card-body">
-            <h3 class="card-title">Weather Dashboard</h3>
-            <p class="card-text">An application for travelers to view the weather conditions in cities they might travel to.</p>
-          </div>
-          <div class="card-footer">
-            <a href="https://github.com/Mully7773/Weather-Dashboard"target="_blank">Github</a>
-            <br>
-            <a href="https://mully7773.github.io/Weather-Dashboard/"target="_blank">Deployed Application</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img class="card-img-top" src="assets/card-images/S0.png" alt="Image of password generator application">
-          <div class="card-body">
-            <h3 class="card-title">Password Generator</h3>
-            <p class="card-text">A random password generator that includes numbers, uppercase and lowercase characters, and symbols.</p>
-          </div>
-          <div class="card-footer">
-            <a href="https://github.com/Mully7773/Password-Generator"target="_blank">Github</a>
-            <br>
-            <a href="https://mully7773.github.io/Password-Generator/"target="_blank">Deployed Application</a>
+    <!-- Contact Me Section -->
+    <div class="container col-xxl-8 px-4 py-5" id="contact-me">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Let's Connect!</h1>
+          <ul id="contact-form" class="list-group list-group-flush">
+            <li class="list-group-item"><a href="https://github.com/Mully7773">Github</a></li>
+            <li class="list-group-item"><a href="https://www.linkedin.com/in/nick-mullenmeister-b7a62078">LinkedIn</a>
+            </li>
+            <li class="list-group-item">Email: mully7773@gmail.com</li>
+            <li class="list-group-item">Phone: (612) 567-3542</li>
+            <li class="list-group-item"><a href="assets/Mullenmeister Resume.pdf">Resume</a></li>
+          </ul>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           </div>
         </div>
-
-        <div class="card">
-          <img class="card-img-top" src="assets/card-images/S2.png" alt="Image of code quiz application">
-          <div class="card-body">
-            <h3 class="card-title">Coding Quiz</h3>
-            <p class="card-text">An interactive coding quiz application</p>
-          </div>
-          <div class="card-footer">
-            <a href="https://github.com/Mully7773/Coding-Quiz"target="_blank">Github</a>
-            <br>
-            <a href="https://mully7773.github.io/Coding-Quiz/"target="_blank">Deployed Application</a>
-          </div>
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="assets/pexels-photo-4381454.jpeg" class="img-thumbnail rounded d-block mx-lg-auto img-fluid rounded"
+            alt="Picture of Nick" width="300" height="200" loading="lazy">
         </div>
       </div>
-
-<br>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="assets/card-images/S1 (2).png" alt="Image of calendar application">
-          <div class="card-body">
-            <h3 class="card-title">Work Day Scheduler</h3>
-            <p class="card-text">A calendar application you can use to schedule your work day events.</p>
-          </div>
-          <div class="card-footer">
-            <a href="https://github.com/Mully7773/Calendar-Application"target="_blank">Github</a>
-            <br>
-            <a href="https://mully7773.github.io/Calendar-Application/"target="_blank">Deployed Application</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img class="card-img-top" src="assets/card-images/S3.png" alt="Image of team profile generator application">
-          <div class="card-body">
-            <h3 class="card-title">Team Profile Generator!</h3>
-            <p class="card-text">A team profile generator that utilizes the back-end to display employee profiles!.</p>
-          </div>
-          <div class="card-footer">
-            <a href="https://github.com/Mully7773/Team-Profile-Generator"target="_blank">Github</a>
-            <br>
-            <p>Please watch the demo video or install the application to deploy it.</p>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/card-images/S4.png" alt="Image of note taker application">
-          <div class="card-body">
-            <h3 class="card-title">Note Taker</h3>
-            <p class="card-text">A note taker application that allows you to save, delete, and store notes for future reference!</p>
-          </div>
-          <div class="card-footer">
-            <a href="https://github.com/Mully7773/Note-Taker"target="_blank">Github</a>
-            <br>
-            <a href="https://mighty-anchorage-28221.herokuapp.com/"target="_blank">Deployed Application</a></p>
-          </div>
-        </div>
-        
-      </div>
-
-      <hr>
-
-<!-- Contact Me Section -->
-      <div class="container col-xxl-8 px-4 py-5" id="contact-me">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Let's Connect!</h1>
-            <ul id = "contact-form" class="list-group list-group-flush">
-              <li class="list-group-item"><a href="https://github.com/Mully7773">Github</a></li>
-              <li class="list-group-item"><a href="https://www.linkedin.com/in/nick-mullenmeister-b7a62078">LinkedIn</a></li>
-              <li class="list-group-item">Email: mully7773@gmail.com</li>
-              <li class="list-group-item">Phone: (612) 567-3542</li>
-              <li class="list-group-item"><a href="assets/Mullenmeister Resume.pdf">Resume</a></li>
-            </ul>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            </div>
-          </div>
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="assets/pexels-photo-4381454.jpeg" class="img-thumbnail rounded d-block mx-lg-auto img-fluid rounded" alt="Picture of Nick" width="300" height="200" loading="lazy">
-          </div>
-        </div>
-      </div>
+    </div>
 
 
 
@@ -180,14 +189,14 @@
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 
